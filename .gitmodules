@@ -1,0 +1,3 @@
+[submodule "Barcoded"]
+	path = Barcoded
+	url = https://github.com/brettreynolds/Barcoded-dotNet-Framework.git
