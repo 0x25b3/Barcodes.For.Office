@@ -214,9 +214,6 @@
     <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>Barcodes.For.Excel_TemporaryKey.pfx</ManifestKeyFile>
-  </PropertyGroup>
-  <PropertyGroup>
     <ManifestCertificateThumbprint>CA5582C6F85B68B81EF220C877C3931EEB96CDE8</ManifestCertificateThumbprint>
   </PropertyGroup>
   <!-- Include the build rules for a C# project. -->

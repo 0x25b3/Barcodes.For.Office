@@ -215,9 +215,6 @@
     <SignManifests>false</SignManifests>
   </PropertyGroup>
   <PropertyGroup>
-    <ManifestKeyFile>Barcodes.For.Word_TemporaryKey.pfx</ManifestKeyFile>
-  </PropertyGroup>
-  <PropertyGroup>
     <ManifestCertificateThumbprint>64ADE4311D1A07DC5C1EE17D8C51B0C71CED5311</ManifestCertificateThumbprint>
   </PropertyGroup>
   <!-- Include the build rules for a C# project. -->
