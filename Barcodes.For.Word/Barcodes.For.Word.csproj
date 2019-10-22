@@ -161,13 +161,9 @@
     </Compile>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <EmbeddedResource Include="Ribbon.resx">
       <DependentUpon>Ribbon.cs</DependentUpon>
     </EmbeddedResource>
@@ -176,6 +172,11 @@
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
     </None>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Properties\Settings.Designer.cs">
       <AutoGen>True</AutoGen>
       <DependentUpon>Settings.settings</DependentUpon>
@@ -201,6 +202,10 @@
     <ProjectReference Include="..\Barcoded\Barcoded\Barcoded.csproj">
       <Project>{be0cc659-81f3-437d-b50c-96659851e43d}</Project>
       <Name>Barcoded</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\Barcodes.For.Shared\Barcodes.For.Shared.csproj">
+      <Project>{dc117eec-5222-4ed3-b4bb-e130efd67b07}</Project>
+      <Name>Barcodes.For.Shared</Name>
     </ProjectReference>
   </ItemGroup>
   <PropertyGroup>

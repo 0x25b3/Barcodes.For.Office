@@ -1,4 +1,4 @@
-﻿namespace Barcodes.For.Word
+﻿namespace Barcodes.For.Excel
 {
     partial class Ribbon : Microsoft.Office.Tools.Ribbon.RibbonBase
     {
@@ -34,18 +34,18 @@
             this.tab1.Name = "tab1";
 
             this.group.Items.Add(this.btnMain);
-            this.group.Label = "Barcodes.For.Word";
+            this.group.Label = "Barcodes.For.Excel";
             this.group.Name = "group";
 
             this.btnMain.ControlSize = Microsoft.Office.Core.RibbonControlSize.RibbonControlSizeLarge;
-            this.btnMain.Image = Shared.Resources.Logo;
+            this.btnMain.Image = Shared.Resources.Header;
             this.btnMain.Label = "Toggle Sidebar";
             this.btnMain.Name = "btnMain";
             this.btnMain.ShowImage = true;
             this.btnMain.Click += new Microsoft.Office.Tools.Ribbon.RibbonControlEventHandler(this.btnMain_Click);
 
             this.Name = "Ribbon";
-            this.RibbonType = "Microsoft.Word.Document";
+            this.RibbonType = "Microsoft.Excel.Workbook";
             this.Tabs.Add(this.tab1);
             this.tab1.ResumeLayout(false);
             this.tab1.PerformLayout();
